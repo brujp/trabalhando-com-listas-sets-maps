@@ -37,7 +37,7 @@ public class Main {
             System.out.println("Percorrendo: " + aula);
         });
 
-        //Ordenar a lista
+        //Ordenar a lista (por padrão, ordem alfabética)
         aulas.add("Aumentando nosso conhecimento");
         Collections.sort(aulas);
         System.out.println(aulas);
