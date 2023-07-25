@@ -1,6 +1,6 @@
 # Trabalhando com Listas, Sets e Maps
 
-### Diferença entre ArrayList e LinkedList
+## Diferença entre ArrayList e LinkedList
 
 E o mistério da LinkedList? E se tivéssemos usado ArrayList na declaração do atributo aulas da classe Curso? O resultado seria exatamente o mesmo!
 
