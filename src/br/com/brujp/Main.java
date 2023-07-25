@@ -1,3 +1,5 @@
+package br.com.brujp;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -5,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         String aula1 = "Conhecendo mais de listas";
-        String aula2 = "Modelando a classe Aula";
+        String aula2 = "Modelando a classe br.com.brujp.Aula";
         String aula3 = "Trabalhando com Cursos e Sets";
 
         //Criando um ArrayList
@@ -21,7 +23,7 @@ public class Main {
 
         //Percorrendo a lista aulas com foreach
         for (String aula: aulas) {
-            System.out.println("Aula: " + aula);
+            System.out.println("br.com.brujp.Aula: " + aula);
         }
 
         //Percorrendo a lista aulas com for
