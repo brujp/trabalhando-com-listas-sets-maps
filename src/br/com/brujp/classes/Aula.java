@@ -1,4 +1,4 @@
-package br.com.brujp;
+package br.com.brujp.classes;
 
 public class Aula implements Comparable<Aula>{
 

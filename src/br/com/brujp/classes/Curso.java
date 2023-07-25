@@ -1,4 +1,4 @@
-package br.com.brujp;
+package br.com.brujp.classes;
 
 import java.util.Collections;
 import java.util.LinkedList;

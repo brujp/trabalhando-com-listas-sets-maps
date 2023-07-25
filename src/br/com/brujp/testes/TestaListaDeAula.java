@@ -1,6 +1,7 @@
-package br.com.brujp;
+package br.com.brujp.testes;
 
-import java.lang.reflect.Array;
+import br.com.brujp.classes.Aula;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

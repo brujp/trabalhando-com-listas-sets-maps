@@ -1,4 +1,7 @@
-package br.com.brujp;
+package br.com.brujp.testes;
+
+import br.com.brujp.classes.Aula;
+import br.com.brujp.classes.Curso;
 
 import java.util.List;
 
