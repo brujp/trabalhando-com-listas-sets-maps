@@ -38,3 +38,8 @@ Estes são apenas alguns exemplos dos diversos métodos da classe Collections.
 No caso do ArrayList, a inserção é bem rápida e a busca muito lenta!
 
 No caso do HashSet, a inserção ainda é rápida, embora um pouco mais lenta do que a das listas. Mas a busca é muito rápida!
+
+## Equals e Hashcode
+
+Regra: Sempre que eu reescrever o método Equals, eu preciso reescrever o método Hashcode
+

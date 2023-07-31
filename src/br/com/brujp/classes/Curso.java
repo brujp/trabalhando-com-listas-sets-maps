@@ -1,14 +1,13 @@
 package br.com.brujp.classes;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class Curso {
 
     private final String nomeCurso;
     private final String nomeInstrutor;
     private final List<Aula> aulas = new LinkedList<Aula>();
+    private Set<Aluno> alunos = new HashSet<>();
 
     public Curso(String nomeCurso, String nomeInstrutor) {
         this.nomeCurso = nomeCurso;
@@ -25,6 +24,10 @@ public class Curso {
 
     public List<Aula> getAulas() {
         return Collections.unmodifiableList(aulas);
+    }
+
+    public Set<Aluno> getAlunos() {
+        return Collections.unmodifiableSet(alunos);
     }
 
     public void adiciona(Aula aula) {
@@ -44,5 +47,13 @@ public class Curso {
         return "[Curso: " + nomeCurso +
                 ". Tempo total: " + this.getTempoTotal() +
                 " minutos. Aulas: " + this.aulas + "]";
+    }
+
+    public void matricula(Aluno aluno) {
+            this.alunos.add(aluno);
+    }
+
+    public boolean estaMatriculado(Aluno aluno) {
+        return this.alunos.contains(aluno);
     }
 }
